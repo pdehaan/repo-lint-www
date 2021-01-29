@@ -66,13 +66,13 @@
   "deployments_url": "https://api.github.com/repos/mozilla/fxa/deployments",
   "created_at": "2015-06-03T21:16:46Z",
   "updated_at": "2021-01-29T15:04:27Z",
-  "pushed_at": "2021-01-29T20:40:22Z",
+  "pushed_at": "2021-01-29T22:22:28Z",
   "git_url": "git://github.com/mozilla/fxa.git",
   "ssh_url": "git@github.com:mozilla/fxa.git",
   "clone_url": "https://github.com/mozilla/fxa.git",
   "svn_url": "https://github.com/mozilla/fxa",
   "homepage": "https://mozilla.github.io/ecosystem-platform/docs/welcome",
-  "size": 215693312,
+  "size": 212511744,
   "stargazers_count": 281,
   "watchers_count": 281,
   "language": "JavaScript",
@@ -85,7 +85,7 @@
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 1154,
+  "open_issues_count": 1156,
   "license": {
     "key": "mpl-2.0",
     "name": "Mozilla Public License 2.0",
@@ -94,7 +94,7 @@
     "node_id": "MDc6TGljZW5zZTE0"
   },
   "forks": 136,
-  "open_issues": 1154,
+  "open_issues": 1156,
   "watchers": 281,
   "default_branch": "main",
   "temp_clone_token": null,
@@ -55750,6 +55750,7 @@
     }
   ],
   "meta": {
+    "fetched_at": "2021-01-29T23:26:47.050Z",
     "circleci_files": [
       {
         "path": ".circleci/README.md",

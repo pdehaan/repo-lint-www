@@ -66,13 +66,13 @@
   "deployments_url": "https://api.github.com/repos/mozilla/experimenter/deployments",
   "created_at": "2016-10-20T18:42:31Z",
   "updated_at": "2021-01-29T16:32:05Z",
-  "pushed_at": "2021-01-29T16:32:03Z",
+  "pushed_at": "2021-01-29T21:09:53Z",
   "git_url": "git://github.com/mozilla/experimenter.git",
   "ssh_url": "git@github.com:mozilla/experimenter.git",
   "clone_url": "https://github.com/mozilla/experimenter.git",
   "svn_url": "https://github.com/mozilla/experimenter",
   "homepage": "https://experimenter.services.mozilla.com",
-  "size": 24498176,
+  "size": 24514560,
   "stargazers_count": 65,
   "watchers_count": 65,
   "language": "Python",
@@ -85,7 +85,7 @@
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 207,
+  "open_issues_count": 208,
   "license": {
     "key": "mpl-2.0",
     "name": "Mozilla Public License 2.0",
@@ -94,7 +94,7 @@
     "node_id": "MDc6TGljZW5zZTE0"
   },
   "forks": 63,
-  "open_issues": 207,
+  "open_issues": 208,
   "watchers": 65,
   "default_branch": "main",
   "temp_clone_token": null,
@@ -10456,6 +10456,7 @@
     }
   ],
   "meta": {
+    "fetched_at": "2021-01-29T23:26:35.057Z",
     "circleci_files": [
       {
         "path": ".circleci/config.yml",

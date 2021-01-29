@@ -65,14 +65,14 @@
   "releases_url": "https://api.github.com/repos/mozilla-mobile/fenix/releases{/id}",
   "deployments_url": "https://api.github.com/repos/mozilla-mobile/fenix/deployments",
   "created_at": "2018-03-22T09:55:43Z",
-  "updated_at": "2021-01-29T20:16:26Z",
-  "pushed_at": "2021-01-29T20:16:22Z",
+  "updated_at": "2021-01-29T22:59:31Z",
+  "pushed_at": "2021-01-29T23:10:14Z",
   "git_url": "git://github.com/mozilla-mobile/fenix.git",
   "ssh_url": "git@github.com:mozilla-mobile/fenix.git",
   "clone_url": "https://github.com/mozilla-mobile/fenix.git",
   "svn_url": "https://github.com/mozilla-mobile/fenix",
   "homepage": "https://www.mozilla.org/en-US/firefox/mobile/",
-  "size": 53271552,
+  "size": 53313536,
   "stargazers_count": 4541,
   "watchers_count": 4541,
   "language": "Kotlin",
@@ -85,7 +85,7 @@
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 2527,
+  "open_issues_count": 2529,
   "license": {
     "key": "mpl-2.0",
     "name": "Mozilla Public License 2.0",
@@ -94,7 +94,7 @@
     "node_id": "MDc6TGljZW5zZTE0"
   },
   "forks": 684,
-  "open_issues": 2527,
+  "open_issues": 2529,
   "watchers": 4541,
   "default_branch": "master",
   "temp_clone_token": null,
@@ -462,7 +462,7 @@
       "path": "app",
       "mode": "040000",
       "type": "tree",
-      "sha": "c3354de92660c641a4444bdfd9149f6a613ea35a",
+      "sha": "82ff2448f85442f389a4d5d098e36d3bec56cb32",
       "name": "app"
     },
     {
@@ -589,7 +589,7 @@
       "path": "app/src",
       "mode": "040000",
       "type": "tree",
-      "sha": "e7016ca673d30c11acd47adba39cbcca2edd7fa7",
+      "sha": "8f99963652219d1f337b4c08f9cb8452416f42b4",
       "name": "src"
     },
     {
@@ -3252,7 +3252,7 @@
       "path": "app/src/main",
       "mode": "040000",
       "type": "tree",
-      "sha": "a390b4779348b4a8dd615f6979f45dee52907aa7",
+      "sha": "d41b96de08e03278c3db1cf4d23ddf9e10c0feeb",
       "name": "main"
     },
     {
@@ -3515,28 +3515,28 @@
       "path": "app/src/main/java",
       "mode": "040000",
       "type": "tree",
-      "sha": "83f97d3273a503180f5c3a19e739fc8a51241850",
+      "sha": "c12895567388c720a67ba9e7f9149a6369eeb4af",
       "name": "java"
     },
     {
       "path": "app/src/main/java/org",
       "mode": "040000",
       "type": "tree",
-      "sha": "ae00a4ac59519d6a29dc90d44723c26d95fa4065",
+      "sha": "3d6b0a05f776b94418c35bf9bc3f45a7e6a87c55",
       "name": "org"
     },
     {
       "path": "app/src/main/java/org/mozilla",
       "mode": "040000",
       "type": "tree",
-      "sha": "2d2fe43065f2b66fb237308cf46daacdebf2d3ac",
+      "sha": "9a84ec73e648ca73db703b87d0ebcc0b630a9979",
       "name": "mozilla"
     },
     {
       "path": "app/src/main/java/org/mozilla/fenix",
       "mode": "040000",
       "type": "tree",
-      "sha": "6b4e73320a89d4df4f503dcc9b742f889a1ce112",
+      "sha": "50753494bae033b08628bd6246dc4cece7fcf6a1",
       "name": "fenix"
     },
     {
@@ -3579,8 +3579,8 @@
       "path": "app/src/main/java/org/mozilla/fenix/FeatureFlags.kt",
       "mode": "100644",
       "type": "blob",
-      "sha": "170520d853568ba9b9f8a712f49b4a64c6bd7ccc",
-      "size": 1931,
+      "sha": "2aedb9361cd3b27596c49b1fffe9131235fe7971",
+      "size": 1616,
       "name": "FeatureFlags.kt",
       "html_url": "https://github.com/mozilla-mobile/fenix/blob/master/app/src/main/java/org/mozilla/fenix/FeatureFlags.kt",
       "raw_url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/master/app/src/main/java/org/mozilla/fenix/FeatureFlags.kt",
@@ -3591,8 +3591,8 @@
       "path": "app/src/main/java/org/mozilla/fenix/FenixApplication.kt",
       "mode": "100644",
       "type": "blob",
-      "sha": "88d950629762ca162df102c64a17aab12b18dc16",
-      "size": 19654,
+      "sha": "fdcbad404a1de3c2ac2179e752136104661b94ea",
+      "size": 19357,
       "name": "FenixApplication.kt",
       "html_url": "https://github.com/mozilla-mobile/fenix/blob/master/app/src/main/java/org/mozilla/fenix/FenixApplication.kt",
       "raw_url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/master/app/src/main/java/org/mozilla/fenix/FenixApplication.kt",
@@ -23814,7 +23814,7 @@
       "path": "buildSrc",
       "mode": "040000",
       "type": "tree",
-      "sha": "af86d65891d7d672f306cdcb0d5377d0341cc283",
+      "sha": "15c9322fe0bbaedaaad30dc76f51944650e72706",
       "name": "buildSrc"
     },
     {
@@ -23833,28 +23833,28 @@
       "path": "buildSrc/src",
       "mode": "040000",
       "type": "tree",
-      "sha": "b7c771065f469aa74946e2f7bfbca8fd6d04a2e9",
+      "sha": "fd82b440859e6a70ca8be519f79c8bfaa3cf6930",
       "name": "src"
     },
     {
       "path": "buildSrc/src/main",
       "mode": "040000",
       "type": "tree",
-      "sha": "d57b2fbf4791c26256f9032ff06eae64972bb7eb",
+      "sha": "40e6cb5797712ebe440ee580d5cedf5445d94397",
       "name": "main"
     },
     {
       "path": "buildSrc/src/main/java",
       "mode": "040000",
       "type": "tree",
-      "sha": "392d77739697526545ec2210fc4513edf82a4e3f",
+      "sha": "247cefc37f9e6f6ffa095cbf5140061bcebe6784",
       "name": "java"
     },
     {
       "path": "buildSrc/src/main/java/AndroidComponents.kt",
       "mode": "100644",
       "type": "blob",
-      "sha": "5f110585a0c10c701addd50fe89d486be4ffbdce",
+      "sha": "261dac0b053a1693fe7808e0521a9a5b309075c8",
       "size": 281,
       "name": "AndroidComponents.kt",
       "html_url": "https://github.com/mozilla-mobile/fenix/blob/master/buildSrc/src/main/java/AndroidComponents.kt",
@@ -26073,6 +26073,7 @@
     }
   ],
   "meta": {
+    "fetched_at": "2021-01-29T23:27:22.839Z",
     "circleci_files": [],
     "githubactions_files": [
       {

@@ -72,7 +72,7 @@
   "clone_url": "https://github.com/mozilla-mobile/mozilla-vpn-client.git",
   "svn_url": "https://github.com/mozilla-mobile/mozilla-vpn-client",
   "homepage": "https://vpn.mozilla.org",
-  "size": 24631296,
+  "size": 24634368,
   "stargazers_count": 37,
   "watchers_count": 37,
   "language": "C++",
@@ -12460,6 +12460,7 @@
     }
   ],
   "meta": {
+    "fetched_at": "2021-01-29T23:27:17.605Z",
     "circleci_files": [],
     "githubactions_files": [
       {
@@ -12550,7 +12551,21 @@
         "mime": "text/markdown"
       }
     ],
-    "license_files": [],
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f9e13276a404d7204c441d1fad67645c78cfee3",
+        "size": 53428,
+        "name": "LICENSE.md",
+        "html_url": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/main/LICENSE.md",
+        "raw_url": "https://raw.githubusercontent.com/mozilla-mobile/mozilla-vpn-client/main/LICENSE.md",
+        "permissions": "rw-r--r--",
+        "ext": ".md",
+        "mime": "text/markdown"
+      }
+    ],
     "readme_files": [
       {
         "path": "README.md",
