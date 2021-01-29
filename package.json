@@ -1,0 +1,34 @@
+{
+  "name": "repo-lint-www",
+  "description": "A static front-end for repo-lint.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/repo-lint-www/issues"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "bytes": "^3.1.0",
+    "del": "^6.0.0",
+    "gh-pages": "^3.1.0",
+    "prettier": "^2.2.1",
+    "repo-lint": "github:pdehaan/repo-lint"
+  },
+  "homepage": "https://github.com/pdehaan/repo-lint-www#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/repo-lint-www.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "build:prod": "eleventy --pathprefix=repo-lint-www",
+    "fetchdata": "node scripts/fetchdata",
+    "predeploy": "npm run build:prod && npm run prettier:output",
+    "prettier:output": "prettier www --write",
+    "deploy": "gh-pages -d www/repo-lint-www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
