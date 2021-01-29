@@ -1,6 +1,6 @@
 # repo-lint-www
 
-> A static front-end for repo-lint.
+> A static front-end for [**repo-lint**](https://github.com/pdehaan/repo-lint).
 
 ## WHY
 
