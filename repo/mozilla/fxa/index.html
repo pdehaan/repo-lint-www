@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>mozilla/fxa</title>
+  </head>
+  <body>
+    <main>
+      <section id="content">
+        <header>
+          <h1><a href="https://github.com/mozilla/fxa">mozilla/fxa</a></h1>
+          <blockquote>
+            <p>Monorepo for Firefox Accounts</p>
+          </blockquote>
+        </header>
+        <article>
+          <ul>
+            <li>
+              Homepage:
+              <a
+                href="https://mozilla.github.io/ecosystem-platform/docs/welcome"
+                >https://mozilla.github.io/ecosystem-platform/docs/welcome</a
+              >
+            </li>
+            <li>Size: 205.7MB</li>
+            <li>Open issues: 1154</li>
+            <li>License: MPL-2.0 (Mozilla Public License 2.0)</li>
+            <li>Default branch: main</li>
+          </ul>
+
+          <hr />
+
+          <!-- CI -->
+
+          <section>
+            <h2>CI</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/README.md"
+                  >.circleci/README.md</a
+                >
+                &mdash; 100644; 1.51KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/assert-branch.sh"
+                  >.circleci/assert-branch.sh</a
+                >
+                &mdash; 100755; 415B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/base-install.sh"
+                  >.circleci/base-install.sh</a
+                >
+                &mdash; 100755; 480B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/build-all.sh"
+                  >.circleci/build-all.sh</a
+                >
+                &mdash; 100755; 274B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/build-and-deploy-fxa-circleci.sh"
+                  >.circleci/build-and-deploy-fxa-circleci.sh</a
+                >
+                &mdash; 100755; 515B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/build.sh"
+                  >.circleci/build.sh</a
+                >
+                &mdash; 100755; 850B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/config.yml"
+                  >.circleci/config.yml</a
+                >
+                &mdash; 100644; 10.96KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/deploy-all.sh"
+                  >.circleci/deploy-all.sh</a
+                >
+                &mdash; 100755; 153B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/deploy.sh"
+                  >.circleci/deploy.sh</a
+                >
+                &mdash; 100755; 1.24KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/modules-to-test.js"
+                  >.circleci/modules-to-test.js</a
+                >
+                &mdash; 100644; 3.1KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.circleci/test-package.sh"
+                  >.circleci/test-package.sh</a
+                >
+                &mdash; 100755; 586B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.github/workflows/codeql-analysis.yml"
+                  >.github/workflows/codeql-analysis.yml</a
+                >
+                &mdash; 100644; 2.32KB
+              </li>
+            </ul>
+          </section>
+
+          <!-- Dependencies -->
+
+          <section>
+            <h2>Dependabot</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.github/dependabot.yml"
+                  >.github/dependabot.yml</a
+                >
+                &mdash; 100644; 239B
+              </li>
+            </ul>
+          </section>
+
+          <!-- Files -->
+
+          <section>
+            <h2>CODE OF CONDUCT</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/CODE_OF_CONDUCT.md"
+                  >CODE_OF_CONDUCT.md</a
+                >
+                &mdash; 100644; 493B
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>CONTRIBUTING</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/CONTRIBUTING.md"
+                  >CONTRIBUTING.md</a
+                >
+                &mdash; 100644; 6.34KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/CONTRIBUTING.md"
+                  >packages/fxa-auth-db-mysql/CONTRIBUTING.md</a
+                >
+                &mdash; 100644; 3.76KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/CONTRIBUTING.md"
+                  >packages/fxa-auth-server/CONTRIBUTING.md</a
+                >
+                &mdash; 100644; 3.75KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-customs-server/CONTRIBUTING.md"
+                  >packages/fxa-customs-server/CONTRIBUTING.md</a
+                >
+                &mdash; 100644; 2.62KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-profile-server/CONTRIBUTING.md"
+                  >packages/fxa-profile-server/CONTRIBUTING.md</a
+                >
+                &mdash; 100644; 3.4KB
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>LICENSE</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/mozilla/fxa/blob/main/LICENSE"
+                  >LICENSE</a
+                >
+                &mdash; 100644; 16.33KB
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>README.md</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/mozilla/fxa/blob/main/README.md"
+                  >README.md</a
+                >
+                &mdash; 100644; 15.67KB
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Large files</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/.yarn/releases/yarn-2.4.0.cjs"
+                  >.yarn/releases/yarn-2.4.0.cjs</a
+                >
+                &mdash; 100755; 1.56MB
+              </li>
+              <li>
+                <a href="https://github.com/mozilla/fxa/blob/main/yarn.lock"
+                  >yarn.lock</a
+                >
+                &mdash; 100644; 1.3MB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/docs/onepw.graffle"
+                  >packages/fxa-auth-server/docs/onepw.graffle</a
+                >
+                &mdash; 100644; 685.84KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/CHANGELOG.md"
+                  >packages/fxa-content-server/CHANGELOG.md</a
+                >
+                &mdash; 100644; 578.66KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-profile-server/test/load/avatar/cat.png"
+                  >packages/fxa-profile-server/test/load/avatar/cat.png</a
+                >
+                &mdash; 100644; 510.86KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/CHANGELOG.md"
+                  >packages/fxa-auth-server/CHANGELOG.md</a
+                >
+                &mdash; 100644; 410.15KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/123done/static/img/landing.jpg"
+                  >packages/123done/static/img/landing.jpg</a
+                >
+                &mdash; 100644; 309.58KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-customs-server/test/mocks/firehol_level1.netset"
+                  >packages/fxa-customs-server/test/mocks/firehol_level1.netset</a
+                >
+                &mdash; 100644; 244.82KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-email-service/Cargo.lock"
+                  >packages/fxa-email-service/Cargo.lock</a
+                >
+                &mdash; 100644; 149.83KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/db-server/test/backend/db_tests.js"
+                  >packages/fxa-auth-db-mysql/db-server/test/backend/db_tests.js</a
+                >
+                &mdash; 100644; 142.23KB
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Suspicious permissions</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/_dev/.stylelintrc"
+                  >_dev/.stylelintrc</a
+                >
+                &mdash; 100755; 552B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/README.md"
+                  >packages/fortress/README.md</a
+                >
+                &mdash; 100755; 680B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/config-local.json"
+                  >packages/fortress/config-local.json</a
+                >
+                &mdash; 100755; 177B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/config.js"
+                  >packages/fortress/config.js</a
+                >
+                &mdash; 100755; 450B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/config.json"
+                  >packages/fortress/config.json</a
+                >
+                &mdash; 100755; 177B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/server.js"
+                  >packages/fortress/server.js</a
+                >
+                &mdash; 100755; 1.04KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/bin/db_patcher.js"
+                  >packages/fxa-auth-db-mysql/bin/db_patcher.js</a
+                >
+                &mdash; 100755; 1.03KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/bin/key_server.js"
+                  >packages/fxa-auth-server/bin/key_server.js</a
+                >
+                &mdash; 100755; 5.29KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/app/images/icon-service-firefox-notes.svg"
+                  >packages/fxa-content-server/app/images/icon-service-firefox-notes.svg</a
+                >
+                &mdash; 100755; 1.06KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/app/scripts/templates/partial/support-form-success.mustache"
+                  >packages/fxa-content-server/app/scripts/templates/partial/support-form-success.mustache</a
+                >
+                &mdash; 100755; 248B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-payments-server/src/styles/_variables.scss"
+                  >packages/fxa-payments-server/src/styles/_variables.scss</a
+                >
+                &mdash; 100755; 51B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/types/blankie/index.d.ts"
+                  >types/blankie/index.d.ts</a
+                >
+                &mdash; 100755; 26B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/types/scooter/index.d.ts"
+                  >types/scooter/index.d.ts</a
+                >
+                &mdash; 100755; 32B
+              </li>
+            </ul>
+          </section>
+
+          <!-- Node -->
+
+          <section>
+            <h2>package.json</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/mozilla/fxa/blob/main/package.json"
+                  >package.json</a
+                >
+                &mdash; 100644; 3.22KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/123done/package.json"
+                  >packages/123done/package.json</a
+                >
+                &mdash; 100644; 1.21KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/browserid-verifier/package.json"
+                  >packages/browserid-verifier/package.json</a
+                >
+                &mdash; 100644; 1.58KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/package.json"
+                  >packages/fortress/package.json</a
+                >
+                &mdash; 100644; 1.38KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-admin-panel/package.json"
+                  >packages/fxa-admin-panel/package.json</a
+                >
+                &mdash; 100644; 3.71KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-admin-server/package.json"
+                  >packages/fxa-admin-server/package.json</a
+                >
+                &mdash; 100644; 2.81KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-client/package.json"
+                  >packages/fxa-auth-client/package.json</a
+                >
+                &mdash; 100644; 1.06KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/package.json"
+                  >packages/fxa-auth-db-mysql/package.json</a
+                >
+                &mdash; 100644; 2.07KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/package.json"
+                  >packages/fxa-auth-server/package.json</a
+                >
+                &mdash; 100644; 5.19KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/package.json"
+                  >packages/fxa-content-server/package.json</a
+                >
+                &mdash; 100644; 7.29KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-customs-server/package.json"
+                  >packages/fxa-customs-server/package.json</a
+                >
+                &mdash; 100644; 1.82KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-dev-launcher/package.json"
+                  >packages/fxa-dev-launcher/package.json</a
+                >
+                &mdash; 100644; 567B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-email-event-proxy/package.json"
+                  >packages/fxa-email-event-proxy/package.json</a
+                >
+                &mdash; 100644; 1.24KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-event-broker/package.json"
+                  >packages/fxa-event-broker/package.json</a
+                >
+                &mdash; 100644; 3.67KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-geodb/package.json"
+                  >packages/fxa-geodb/package.json</a
+                >
+                &mdash; 100644; 1.22KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-graphql-api/package.json"
+                  >packages/fxa-graphql-api/package.json</a
+                >
+                &mdash; 100644; 3.3KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-metrics-processor/package.json"
+                  >packages/fxa-metrics-processor/package.json</a
+                >
+                &mdash; 100644; 1.51KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-payments-server/package.json"
+                  >packages/fxa-payments-server/package.json</a
+                >
+                &mdash; 100644; 5.65KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-profile-server/package.json"
+                  >packages/fxa-profile-server/package.json</a
+                >
+                &mdash; 100644; 2KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-react/package.json"
+                  >packages/fxa-react/package.json</a
+                >
+                &mdash; 100644; 2.86KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-settings/package.json"
+                  >packages/fxa-settings/package.json</a
+                >
+                &mdash; 100644; 3.35KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-shared/package.json"
+                  >packages/fxa-shared/package.json</a
+                >
+                &mdash; 100644; 3.52KB
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-support-panel/package.json"
+                  >packages/fxa-support-panel/package.json</a
+                >
+                &mdash; 100644; 2.57KB
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>ESLint</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/_dev/.eslintrc"
+                  >_dev/.eslintrc</a
+                >
+                &mdash; 100644; 182B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/123done/.eslintignore"
+                  >packages/123done/.eslintignore</a
+                >
+                &mdash; 100644; 26B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/123done/.eslintrc"
+                  >packages/123done/.eslintrc</a
+                >
+                &mdash; 100644; 61B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/browserid-verifier/.eslintrc"
+                  >packages/browserid-verifier/.eslintrc</a
+                >
+                &mdash; 100644; 66B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/.eslintignore"
+                  >packages/fortress/.eslintignore</a
+                >
+                &mdash; 100644; 26B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fortress/.eslintrc"
+                  >packages/fortress/.eslintrc</a
+                >
+                &mdash; 100644; 61B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-admin-panel/.eslintrc"
+                  >packages/fxa-admin-panel/.eslintrc</a
+                >
+                &mdash; 100644; 297B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-admin-panel/src/.eslintrc"
+                  >packages/fxa-admin-panel/src/.eslintrc</a
+                >
+                &mdash; 100644; 355B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/.eslintrc"
+                  >packages/fxa-auth-db-mysql/.eslintrc</a
+                >
+                &mdash; 100644; 110B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/db-server/test/.eslintrc"
+                  >packages/fxa-auth-db-mysql/db-server/test/.eslintrc</a
+                >
+                &mdash; 100644; 82B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/scripts/.eslintrc"
+                  >packages/fxa-auth-db-mysql/scripts/.eslintrc</a
+                >
+                &mdash; 100644; 59B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-db-mysql/test/.eslintrc"
+                  >packages/fxa-auth-db-mysql/test/.eslintrc</a
+                >
+                &mdash; 100644; 79B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/.eslintignore"
+                  >packages/fxa-auth-server/.eslintignore</a
+                >
+                &mdash; 100644; 8B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/.eslintrc"
+                  >packages/fxa-auth-server/.eslintrc</a
+                >
+                &mdash; 100644; 115B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/scripts/.eslintrc"
+                  >packages/fxa-auth-server/scripts/.eslintrc</a
+                >
+                &mdash; 100644; 155B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/test/.eslintrc"
+                  >packages/fxa-auth-server/test/.eslintrc</a
+                >
+                &mdash; 100644; 119B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/.eslintignore"
+                  >packages/fxa-content-server/.eslintignore</a
+                >
+                &mdash; 100644; 38B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/.eslintrc"
+                  >packages/fxa-content-server/.eslintrc</a
+                >
+                &mdash; 100644; 295B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/app/.eslintrc"
+                  >packages/fxa-content-server/app/.eslintrc</a
+                >
+                &mdash; 100644; 50B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/server/.eslintrc"
+                  >packages/fxa-content-server/server/.eslintrc</a
+                >
+                &mdash; 100644; 106B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-content-server/tests/.eslintrc"
+                  >packages/fxa-content-server/tests/.eslintrc</a
+                >
+                &mdash; 100644; 200B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-customs-server/.eslintrc"
+                  >packages/fxa-customs-server/.eslintrc</a
+                >
+                &mdash; 100644; 214B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-email-event-proxy/.eslintrc"
+                  >packages/fxa-email-event-proxy/.eslintrc</a
+                >
+                &mdash; 100644; 61B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-geodb/.eslintrc"
+                  >packages/fxa-geodb/.eslintrc</a
+                >
+                &mdash; 100644; 95B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-payments-server/.eslintignore"
+                  >packages/fxa-payments-server/.eslintignore</a
+                >
+                &mdash; 100644; 44B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-payments-server/.eslintrc"
+                  >packages/fxa-payments-server/.eslintrc</a
+                >
+                &mdash; 100644; 341B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-payments-server/src/.eslintrc"
+                  >packages/fxa-payments-server/src/.eslintrc</a
+                >
+                &mdash; 100644; 313B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-profile-server/.eslintrc"
+                  >packages/fxa-profile-server/.eslintrc</a
+                >
+                &mdash; 100644; 174B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-react/.eslintrc"
+                  >packages/fxa-react/.eslintrc</a
+                >
+                &mdash; 100644; 349B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-settings/.eslintrc"
+                  >packages/fxa-settings/.eslintrc</a
+                >
+                &mdash; 100644; 427B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-shared/.eslintignore"
+                  >packages/fxa-shared/.eslintignore</a
+                >
+                &mdash; 100644; 6B
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mozilla/fxa/blob/main/packages/fxa-shared/.eslintrc"
+                  >packages/fxa-shared/.eslintrc</a
+                >
+                &mdash; 100644; 153B
+              </li>
+            </ul>
+          </section>
+
+          <!-- Python -->
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
